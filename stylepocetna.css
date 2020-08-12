@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+h1{
+    font-family: sans-serif;
+    border-bottom: 2px solid pink;
+    width: 400px;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.container {
+    display: grid | inline-grid;
+    grid-gap: 30px;
+}
+
+#one{
+    transition: all 0.3s linear;
+    transition: all  1s; 
+}
+
+#one:hover {
+    transform: scale(1.1);
+}
